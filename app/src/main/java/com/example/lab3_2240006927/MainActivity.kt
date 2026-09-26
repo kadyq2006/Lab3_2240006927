@@ -67,7 +67,6 @@ fun MainAppScreen() {
                         style = MaterialTheme.typography.titleMedium
                     )
                 },
-                // إضافة زر السهم للعودة للصفحة الرئيسية عند فتح أي تاسك
                 navigationIcon = {
                     if (currentScreen != AppScreen.HOME) {
                         IconButton(onClick = { currentScreen = AppScreen.HOME }) {
